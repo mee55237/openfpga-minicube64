@@ -969,6 +969,6 @@ set_global_assignment -name SYSTEMVERILOG_FILE mc64_state_store.sv
 
 set_global_assignment -name EDA_SIMULATION_TOOL "<None>"
 set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS OFF
-set_global_assignment -name OPTIMIZATION_MODE "BALANCED"
+set_global_assignment -name OPTIMIZATION_MODE "Aggressive Area"
 set_global_assignment -name OPTIMIZE_IOC_REGISTER_PLACEMENT_FOR_TIMING OFF
 set_global_assignment -name TIMEQUEST_DO_REPORT_TIMING OFF
