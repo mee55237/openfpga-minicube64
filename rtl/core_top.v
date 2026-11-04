@@ -1529,10 +1529,10 @@ module core_top (
     cont1_key[2],   // Left
     cont1_key[1],   // Down
     cont1_key[0],   // Up
-    cont1_key[15],  // Start  (the Pocket's Start)
-    cont1_key[6],   // C   (face_x)
-    cont1_key[5],   // B   (face_b)
-    cont1_key[4]    // A   (face_a)
+    cont1_key[15],  // Start
+     cont1_key[6] | cont1_key[7],   // C
+    cont1_key[5],   // B
+    cont1_key[4]    // A
   };
 
   wire [7:0] pad2_map = {
