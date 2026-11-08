@@ -7,7 +7,6 @@ It runs 6.4mhz, with 64kb of ram and a simple 64x64 pixel framebuffer with 64 co
 
 As it is based on 6502, Minicube64 follows the same rules, directives and instructions that are common to those systems. " -ΛERIF°RM (https://aeriform.itch.io/minicube64)
 
-https://aeriform.itch.io/minicube64
 https://github.com/aeriform-io/minicube64 
 
 Note that Arlet 6502 does not support common illegal instructions.
